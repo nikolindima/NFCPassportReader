@@ -187,7 +187,7 @@ public struct ResponseAPDU {
 public class TagReader {
     var tag : NFCISO7816Tag
     var secureMessaging : SecureMessaging?
-    var maxDataLengthToRead : Int = 112
+    var maxDataLengthToRead : Int = 255
 
     var progress : ((Int)->())?
 
